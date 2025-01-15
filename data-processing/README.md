@@ -15,13 +15,15 @@ Python 3.9 or higher
     - On macOS/Linux:
     `source venv/bin/activate`
     - On Windows:
-    venv\Scripts\activate
+    `venv\Scripts\activate`
 3. **Install Dependencies** Install the project dependencies listed in requirements.txt:
+
 `pip install -r data-processing/requirements.txt`
 4. **Running the Code** After setting up the environment and installing dependencies, you can run the main script:
+
 `python data-processing/code/main.py`
 
 ## Aditional Notes
 1. **Error Logs:** Any issues encountered during PDF processing, such as malformed files, will be logged to the console.
 2. **Customizable Settings:** You can modify the semaphore limit (default: 5 concurrent tasks) in the code to adjust concurrency based on your system’s capabilities.
-3. **Other Possible Solutions:** Using Apache Spark can also be a possible solution for large-scale data processing across distributed clusters, especially when dealing with terabytes of data. Alos, by using Celery with a message broker like RabbitMQ or Redis, we can distribute the tasks across multiple worker machines to handle very high workloads. 
+3. **Other Possible Solutions:** Using Apache Spark can also be a possible solution for large-scale data processing across distributed clusters, especially when dealing with terabytes of data. Also, by using Celery with a message broker like RabbitMQ or Redis, we can distribute the tasks across multiple worker machines to handle very high workloads. 
