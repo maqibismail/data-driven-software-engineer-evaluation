@@ -17,10 +17,8 @@ Python 3.9 or higher
     - On Windows:
     `venv\Scripts\activate`
 3. **Install Dependencies** Install the project dependencies listed in requirements.txt:
-
 `pip install -r data-processing/requirements.txt`
 4. **Running the Code** After setting up the environment and installing dependencies, you can run the main script:
-
 `python data-processing/code/main.py`
 
 ## Aditional Notes
